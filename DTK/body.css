@@ -1,0 +1,182 @@
+body {
+    background-color: #238d7f!important;
+}
+
+
+.search-button{
+    padding: 10px 40px; 
+    border: 1px solid #474747;
+    border-radius: 30px;                
+    object-fit: cover;
+}
+    
+.search-bar {
+    padding: 10px 40px; 
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 500px; 
+    background-image: url('search.png');
+    background-repeat: no-repeat;
+    background-position: 10px center; 
+    background-size: 20px; 
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 100px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+    margin-bottom: 400px;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.login-button {
+    position: absolute; 
+    right: 75px; 
+    top: 15px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #0105ff; 
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background: #00b383;
+}
+
+.navbar {
+    background-color: #ffffff;
+    height: 70px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: #009978;
+}
+
+
+.large-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.about-text h2 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+i {
+    font-size: 50px;
+}
+
+.card {
+    border: none;
+    margin-bottom: 30px;
+}
+
+.img-area {
+    height: 300px;
+    overflow: hidden;
+}
+
+.top-img{
+    height: 96%;
+    width: 100%;
+}
+
+.img-area img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio .card .btn-info {
+    width: 30%;
+    margin-top: 15px;
+    margin-left: 145px;
+    border: none;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+.portfolio .card .btn-info:hover {
+    background-color: rgb(7, 58, 117);
+}
+
+.portfolio .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+#team .card {
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+#team .card-body {
+    text-align: center;
+    padding: 15px;
+}
+
+#team .card img {
+    width: 90px;
+    height: 85px;
+    margin-bottom: 10px;
+}
